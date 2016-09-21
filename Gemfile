@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 gemspec
 
-# Fork to allow for a recent version of multipart-post.
-gem "pedump", git: "https://github.com/ksubrama/pedump", branch: "patch-1"
+gem "pedump"
 
 # Always use license_scout from master
 gem "license_scout", github: "chef/license_scout"
